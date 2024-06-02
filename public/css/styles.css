@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(53, 94, 129);
+  text-align: center;
+  color: white;
+  height: 650px;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  //float: left;
+  padding: 12px;
+  width: 25%;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: white;
+  color: rgb(17, 172, 76);
+  font-size: 30px;
+  border-bottom-style: solid;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  
+
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+.title {
+  background-color: purple;
+}
+
+img {
+  width:150px;
+}
+.footer {
+  
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+.content {
+  background-color: black;
+  width: 500px;
+  padding: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: left;
+}
+
+#pic1 {
+  width: 300px;
+  padding-left: 100px;
+}
+
+#pic2 {
+  width: 300px;
+  padding-left: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
